@@ -78,7 +78,7 @@ def view_message():
             print("Code: " + code)
 ```
 
-## No final do programa de encontram algumas das funcoes que foram chamadas  para para teste do programa:
+## No final do programa se encontram algumas das funcoes que foram chamadas  para para teste do programa:
 
 ```python
 # Gera novo email
