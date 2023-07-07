@@ -1,14 +1,15 @@
 # TempMailApiRequests
 Script para solicitacoes de email temporario e funcionalidade modular para aquisicao de codigo de verificacao.
-
-### funcao que cria o email temporario:
+## Dependecias necessarias para utilizar o programa:
+<p>Criei um arquivo requirements.txt que abrange todas as dependencias necessarias para rodar o programa de uma maneira simple tendo que somente fazer uma instalacao manual</p>
+### Funcao responsavel por criar email temporario:
 ```python
     def generate_email():
     global email
     email = re.get("https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=1").json()[0]
     print("Generated Email:", email)
 ```
-### Funcao que refresca a pagina buscando a entrega de email corespondente ao email criado:
+### Funcao que refresca a pagina buscando a entrega de email corespondente ao endereco de email criado pela funcao acima:
 ```python
 def refresh_mailbox():
     if email == '':
@@ -36,7 +37,7 @@ def refresh_mailbox():
                 print("Error occurred while retrieving messages:", str(e))
                 break
 ```
-### Funcao que visualiza o sujeito e corpo do email e nessa versao tambem procura o <span style="color:red">*codigo de ativacao*</span>:
+### Funcao que visualiza o sujeito e corpo do email e nessa versao tambem procura o *codigo de ativacao*
 ```python
 def view_message():
     if email == '':
