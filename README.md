@@ -77,3 +77,38 @@ def view_message():
             code = regex.search(r'\d+', subject).group()
             print("Code: " + code)
 ```
+
+## No final do programa de encontram algumas das funcoes que foram chamadas  para para teste do programa:
+
+```python
+# Gera novo email
+generate_email()
+
+# refresh inbox
+refresh_mailbox()
+
+# visuliza email
+view_message()
+```
+- <p>Essas funcoes podem ser utilizadas em outros programs como por exemplo</p>
+
+```python
+from testmail import generate_email, refresh_mailbox, view_message
+
+# Gera novo email
+generate_email()
+
+# Refresca caixa de mensagems
+refresh_mailbox()
+
+# Visualiza e extrai codigo de ativacao do sujeito do email
+view_message()
+
+# Essas variaveis sao exemplos de como extrar a informacao necessaria do programa
+email = testmail.email
+code = testmail.code
+
+# Logica do programa pode seguir...
+# ...
+```
+
