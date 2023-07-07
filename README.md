@@ -36,7 +36,7 @@ def refresh_mailbox():
                 print("Error occurred while retrieving messages:", str(e))
                 break
 ```
-### Funcao que visualiza o sujeito e corpo do email e nessa versao tambem procura o *codigo de ativacao*:
+### Funcao que visualiza o sujeito e corpo do email e nessa versao tambem procura o <span style="color:red">*codigo de ativacao*</span>:
 ```python
 def view_message():
     if email == '':
