@@ -8,7 +8,8 @@
 
     > ### Aqui de encontra um passo a passo de como fazer a instalacao dessas dependencias com um simples comando.
     >
-    > - Depois de baixar os arquivos do Github abra em seu editor de texto verifique no terminal que voce esta dentro do diretorio correto como segue o exemplo abaixo.
+    > - Depois de baixar os arquivos do Github abra em seu editor de texto verifique no terminal que voce esta 
+    dentro do diretorio correto como segue o exemplo abaixo.
     >
     ![codesnippet](https://github.com/leosatler/TempMailApiRequests/assets/67660351/aec4e8d9-06ea-44dc-855c-1dfc033fc8a7)
     >
@@ -16,7 +17,8 @@
     >
     >> - pip install -r requirements.txt
     >
-    >  **Esse comando instalara todas as dependecias necessarias para rodar o programa de uma vez so sem tem que gastar tempo instalando uma por uma.
+    >  **Esse comando instalara todas as dependecias necessarias para rodar o programa de uma vez so sem
+    tem que gastar tempo instalando uma por uma.
     
 ### Funcao responsavel por criar email temporario:
 ```python
