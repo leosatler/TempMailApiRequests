@@ -15,7 +15,7 @@
     >
     > - Instale as dependencias usando o comando pip.
     >
-    >> - pip install -r requirements.txt
+    > - pip install -r requirements.txt
     >
     >  **Esse comando instalara todas as dependecias necessarias para rodar o programa de uma vez so sem
     tem que gastar tempo instalando uma por uma.
