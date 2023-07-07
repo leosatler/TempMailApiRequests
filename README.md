@@ -6,6 +6,7 @@
 
 <p>Criei um arquivo requirements.txt que abrange todas as dependencias necessarias para rodar o programa de uma maneira simple tendo que somente fazer uma instalacao manual</p>
 
+
 > ### Aqui de encontra um passo a passo de como fazer a instalação dessas dependências com um simples comando.
 >
 > - Depois de baixar os arquivos do Github, abra-os em seu editor de texto e verifique no terminal se você está dentro do diretório correto, conforme o exemplo abaixo:
