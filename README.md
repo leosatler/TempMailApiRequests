@@ -5,11 +5,12 @@
 ## Dependecias necessarias para utilizar o programa:
 
 <p>Criei um arquivo requirements.txt que abrange todas as dependencias necessarias para rodar o programa de uma maneira simple tendo que somente fazer uma instalacao manual</p>
+
     > ### Aqui de encontra um passo a passo de como fazer a instalacao dessas dependencias com um simples comando.
     >
     > - Depois de baixar os arquivos do Github abra em seu editor de texto verifique no terminal que voce esta dentro do diretorio correto como segue o exemplo abaixo.
     >
-    > ![codesnippet](https://github.com/leosatler/TempMailApiRequests/assets/67660351/aec4e8d9-06ea-44dc-855c-1dfc033fc8a7)
+    ![codesnippet](https://github.com/leosatler/TempMailApiRequests/assets/67660351/aec4e8d9-06ea-44dc-855c-1dfc033fc8a7)
     >
     > - Instale as dependencias usando o comando pip.
     >
