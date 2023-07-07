@@ -19,7 +19,7 @@
 > pip install -r requirements.txt
 > ```
 >
-> <p>**Esse comando instalará todas as dependências necessárias para rodar o programa de uma vez só, sem ter que gastar tempo instalando uma por uma.**</p>
+> <p>Esse comando instalará todas as dependências necessárias para rodar o programa de uma vez só, sem ter que gastar tempo instalando uma por uma.</p>
 
     
 ### Funcao responsavel por criar email temporario:
