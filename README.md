@@ -2,13 +2,13 @@
 Script para solicitacoes de email temporario e funcionalidade modular para aquisicao de codigo de verificacao.
 
 ### funcao que cria o email temporario:
-```python def generate_email():
+python def generate_email():
     global email
     email = re.get("https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=1").json()[0]
-    print("Generated Email:", email)```
+    print("Generated Email:", email)
 
 ### Funcao que refresca a pagina buscando a entrega de email corespondente ao email criado:
-```python def refresh_mailbox():
+def refresh_mailbox():
     if email == '':
         print("Generate an email first.")
     else:
@@ -32,10 +32,10 @@ Script para solicitacoes de email temporario e funcionalidade modular para aquis
                     time.sleep(5) 
             except Exception as e:
                 print("Error occurred while retrieving messages:", str(e))
-                break```
+                break
 
 ### Funcao que visualiza o sujeito e corpo do email e nessa versao tambem procura o **codigo de ativacao**:
-```python def view_message():
+def view_message():
     if email == '':
         print("Generate an email first.")
     else:
@@ -51,5 +51,5 @@ Script para solicitacoes de email temporario e funcionalidade modular para aquis
             print(mailbox_view)
             print("Subject: " + subject)
             code = regex.search(r'\d+', subject).group()
-            print("Code: " + code)```
+            print("Code: " + code)
 
