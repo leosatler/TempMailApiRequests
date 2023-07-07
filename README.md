@@ -1,6 +1,6 @@
 # TempMailApiRequests
 
-<p>*Script para solicitacoes de email temporario e funcionalidade modular para aquisicao de codigo de verificacao.*<p>
+<p>*Script para solicitacoes de email temporario e funcionalidade modular para aquisicao de codigo de verificacao*<p>
     
 ## Dependecias necessarias para utilizar o programa:
 
