@@ -9,17 +9,17 @@
 
 > ### Aqui de encontra um passo a passo de como fazer a instalação dessas dependências com um simples comando.
 >
-> - Depois de baixar os arquivos do Github, abra-os em seu editor de texto e verifique no terminal se você está dentro do diretório correto, conforme o exemplo abaixo:
+> - <p>Depois de baixar os arquivos do Github, abra-os em seu editor de texto e verifique no terminal se você está dentro do diretório correto, conforme o exemplo abaixo:</p>
 >
 > ![codesnippet](https://github.com/leosatler/TempMailApiRequests/assets/67660351/aec4e8d9-06ea-44dc-855c-1dfc033fc8a7)
 >
-> - Instale as dependências usando o comando pip:
+> - <p>Instale as dependências usando o comando pip:</p>
 >
 > ```
 > pip install -r requirements.txt
 > ```
 >
-> **Esse comando instalará todas as dependências necessárias para rodar o programa de uma vez só, sem ter que gastar tempo instalando uma por uma.**
+> <p>**Esse comando instalará todas as dependências necessárias para rodar o programa de uma vez só, sem ter que gastar tempo instalando uma por uma.**</p>
 
     
 ### Funcao responsavel por criar email temporario:
